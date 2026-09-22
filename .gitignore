@@ -1,0 +1,13 @@
+node_modules/
+logs/
+build/
+data/config.json
+data/config.*.json
+!data/config.example.json
+data/*.bak-*
+data/*-local.json
+data/*.pem
+public/download/
+*.log
+*.ndjson
+*.bak-*
