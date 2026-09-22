@@ -1,0 +1,26 @@
+# BiliTerminal Revival
+
+> BiliTerminal Revival（哔哩终端复活版）是面向智能手表、旧 Android 设备和特殊网络环境的轻量哔哩哔哩第三方客户端项目。
+
+## Official website
+
+- Homepage: https://jp.031030.xyz/
+- Sitemap: https://jp.031030.xyz/sitemap.xml
+
+## Project summary
+
+- The project focuses on Android 4.0.4 and later, including low-memory phones, smart watches and other constrained devices.
+- The client provides video browsing, playback, caching and account-related features subject to the capabilities of the target device and the upstream service.
+- A restricted private relay may be used when a device cannot directly reach the upstream service. The relay is not the upstream service and is controlled by the project operator.
+- The website is the authoritative source for current releases, announcements and service status.
+
+## Naming
+
+- BiliTerminal Revival
+- 哔哩终端复活版
+- BiliTerminal
+
+## Notes
+
+- This is an independent third-party project and is not an official Bilibili product.
+- Do not treat cached release information as current; check the official website and its announcements for the latest version.
