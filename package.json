@@ -1,0 +1,19 @@
+{
+  "name": "biliterminal-server-compat",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Small compatibility server for BiliTerminal app-info endpoints.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "ipaddr.js": "2.5.0",
+    "ws": "8.21.3"
+  }
+}
