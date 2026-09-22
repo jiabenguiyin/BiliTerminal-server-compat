@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#07090f">
+    <meta name="color-scheme" content="dark">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="description" content="BiliTerminal Revival 哔哩终端复活版，为智能手表、旧手机和特殊网络环境维护的轻量哔哩哔哩第三方客户端，支持 Android 4.0.4 及以上设备。">
+    <meta name="keywords" content="BiliTerminal,哔哩终端,哔哩终端复活版,智能手表B站,旧安卓B站客户端,Android 4.0,B站第三方客户端">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="og:site_name" content="BiliTerminal Revival">
+    <meta property="og:title" content="BiliTerminal Revival｜哔哩终端复活版">
+    <meta property="og:description" content="为旧设备重新连接哔哩哔哩。轻量、兼容，并在特殊网络环境下提供受限中继。">
+    <meta property="og:url" content="https://jp.031030.xyz/">
+    <meta property="og:image" content="https://jp.031030.xyz/assets/app-icon.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="BiliTerminal Revival｜哔哩终端复活版">
+    <meta name="twitter:description" content="面向智能手表与旧 Android 设备的轻量哔哩哔哩第三方客户端。">
+    <link rel="canonical" href="https://jp.031030.xyz/">
+    <link rel="icon" href="/assets/app-icon.png" type="image/png">
+    <link rel="apple-touch-icon" href="/assets/app-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preload" href="/assets/app-icon.png" as="image">
+    <title>哔哩终端复活版 | BiliTerminal Revival</title>
+    <link rel="stylesheet" href="/assets/legacy.css?v=20260921-3">
+    <link rel="stylesheet" href="/assets/site.css?v=20260921-3">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "BiliTerminal Revival",
+        "alternateName": "哔哩终端复活版",
+        "description": "面向智能手表、旧手机和特殊网络环境的轻量哔哩哔哩第三方客户端。",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Android 4.0.4 or later",
+        "softwareVersion": "1.1.8",
+        "downloadUrl": "https://jp.031030.xyz/download/BiliTerminal-1.1.8-2026092102-release.apk",
+        "license": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "CNY"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "BiliTerminal Revival"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+
+    <header class="topbar" id="top">
+      <div class="nav-shell">
+        <a class="brand" id="home-brand" href="/" aria-label="BiliTerminal Revival 首页">
+          <img class="brand-icon" src="/assets/app-icon.png" alt="" width="38" height="38">
+          <span class="brand-copy">
+            <strong>BiliTerminal</strong>
+            <small>REVIVAL</small>
+          </span>
+        </a>
+
+        <button class="menu-button" id="menu-button" type="button" aria-label="打开导航菜单" aria-expanded="false" aria-controls="site-nav">
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="nav" id="site-nav" aria-label="主导航">
+          <a id="home-nav" href="/">首页</a>
+          <a href="#download">下载</a>
+          <a href="#updates">更新日志</a>
+          <a href="#guide">使用说明</a>
+          <a href="#status">服务状态</a>
+        </nav>
+
+        <a class="global-status status-checking" id="global-status" href="#status">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span id="global-status-text">正在检测</span>
+        </a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-inner">
+          <div class="hero-copy reveal">
+            <p class="eyebrow"><span></span> BiliTerminal Revival</p>
+            <h1 id="hero-title">哔哩终端<span>复活版</span></h1>
+            <div class="version-line">
+              <span class="version-chip" id="hero-version">v1.1.8</span>
+              <span id="hero-release-date">2026-09-21 发布</span>
+            </div>
+            <h2>为旧设备重新连接哔哩哔哩</h2>
+            <p class="hero-description">
+              面向智能手表、旧手机与特殊网络环境维护的轻量第三方客户端。默认优先直连哔哩哔哩，网络异常时再尝试受限私有中继。
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" id="hero-download" href="/download/BiliTerminal-1.1.8-2026092102-release.apk">下载正式版</a>
+              <a class="button button-secondary" id="hero-beta" href="#beta" hidden>获取 Beta 版</a>
+              <a class="text-link" href="#updates">查看更新日志 <span aria-hidden="true">→</span></a>
+            </div>
+            <ul class="feature-list" aria-label="产品特性">
+              <li>Android 4.0.4+</li>
+              <li>低内存优化</li>
+              <li>智能中继</li>
+              <li>GPL-3.0</li>
+            </ul>
+          </div>
+
+          <div class="device-stage reveal" aria-label="BiliTerminal 实际界面展示">
+            <div class="device device-phone">
+              <div class="device-bar"><span></span><b></b></div>
+              <img src="/assets/screen-home.webp" alt="BiliTerminal 入站必刷推荐页真机界面" width="450" height="1002" decoding="async">
+            </div>
+            <div class="device device-watch">
+              <div class="watch-screen">
+                <img src="/assets/screen-watch-home.webp" alt="BiliTerminal 智能手表推荐页真机界面" width="420" height="528" loading="lazy" decoding="async">
+              </div>
+              <span class="watch-crown" aria-hidden="true"></span>
+            </div>
+            <div class="floating-status" aria-label="实时服务摘要">
+              <div><span>终端 API</span><strong id="hero-api-state">检测中</strong></div>
+              <div><span>公告服务</span><strong id="hero-notice-state">检测中</strong></div>
+              <div><span>最新版本</span><strong id="hero-version-state">v1.1.8</strong></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="overview overview-no-beta section-shell" aria-label="核心信息">
+        <article class="info-card reveal">
+          <div class="card-kicker"><span class="icon-box">↓</span><span class="tag tag-stable">正式版</span></div>
+          <h2>最新正式版</h2>
+          <strong class="card-value" id="release-version">v1.1.8</strong>
+          <p id="release-summary">旧设备崩溃与播放器兼容性修复版。</p>
+          <div class="card-meta"><span id="release-date">2026-09-21</span><span id="release-size">10.68 MB</span></div>
+          <a class="card-link" id="release-download" href="/download/BiliTerminal-1.1.8-2026092102-release.apk">立即下载 <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="info-card reveal" id="beta" hidden>
+          <div class="card-kicker"><span class="icon-box">β</span><span class="tag tag-beta">测试中</span></div>
+          <h2>Beta 测试版</h2>
+          <strong class="card-value" id="beta-version">暂未开放</strong>
+          <p id="beta-summary">用于提前验证新功能，可能存在不稳定情况。</p>
+          <div class="card-meta"><span id="beta-date">尚未发布</span><span>可覆盖安装</span></div>
+          <a class="card-link" id="beta-download" href="#beta">获取 Beta 版 <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="info-card reveal">
+          <div class="card-kicker"><span class="icon-box icon-status">●</span><span class="tag tag-live">实时</span></div>
+          <h2>服务状态</h2>
+          <strong class="card-value" id="overview-status">检测中</strong>
+          <p>实时读取健康检查、终端 API、公告接口与下载节点。</p>
+          <div class="card-meta"><span>东京节点</span><span id="overview-latency">-- ms</span></div>
+          <a class="card-link" href="#status">查看详情 <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="info-card reveal">
+          <div class="card-kicker"><span class="icon-box">↗</span><span class="tag tag-network">按需启用</span></div>
+          <h2>网络策略</h2>
+          <strong class="card-value">直连优先</strong>
+          <p>仅在网络错误、超时或握手失败时尝试私有中继。</p>
+          <div class="card-meta"><span>域名白名单</span><span>Token 验证</span></div>
+          <a class="card-link" href="#relay">了解更多 <span aria-hidden="true">→</span></a>
+        </article>
+      </section>
+
+      <section class="updates section-band" id="updates">
+        <div class="section-shell split-layout">
+          <div class="announcements reveal">
+            <div class="section-heading">
+              <div><p class="eyebrow"><span></span> Notices</p><h2>最新公告</h2></div>
+              <button class="quiet-button" id="notice-toggle" type="button" hidden>查看全部</button>
+            </div>
+            <div class="announcement-list" id="announcement-list" aria-live="polite">
+              <article class="announcement-item">
+                <div class="announcement-top"><span class="tag tag-stable">更新</span><time datetime="2026-09-21">2026-09-21</time></div>
+                <h3>复活版 1.1.8 / 2026092102 修复版</h3>
+                <p>修复高能进度条因旧接口下线无法显示的问题，改用已加载弹幕分段生成密度数据。</p>
+              </article>
+            </div>
+            <button class="retry-button" id="notice-retry" type="button" hidden>重新加载公告</button>
+          </div>
+
+          <aside class="status-panel reveal" id="status" aria-labelledby="status-title">
+            <div class="status-panel-head">
+              <div><p class="eyebrow"><span></span> Live Status</p><h2 id="status-title">实时服务状态</h2></div>
+              <code>/healthz</code>
+            </div>
+            <div class="system-summary status-checking" id="system-summary">
+              <span class="summary-mark" aria-hidden="true">✓</span>
+              <div><strong id="system-summary-text">正在检查服务</strong><small id="last-checked">等待首次检测</small></div>
+            </div>
+            <ul class="service-list">
+              <li data-service="health"><span><i></i>服务入口</span><strong>检测中</strong><small>-- ms</small></li>
+              <li data-service="api"><span><i></i>终端 API</span><strong>检测中</strong><small>-- ms</small></li>
+              <li data-service="download"><span><i></i>下载节点</span><strong>等待中</strong><small>-- ms</small></li>
+              <li data-service="notice"><span><i></i>公告接口</span><strong>检测中</strong><small>-- ms</small></li>
+            </ul>
+            <button class="button button-secondary status-retry" id="status-retry" type="button">重新检测</button>
+          </aside>
+        </div>
+      </section>
+
+      <section class="download section-shell" id="download">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow"><span></span> Download</p>
+          <h2>下载 BiliTerminal</h2>
+          <p>当前仅提供 Android 安装包，请选择正式版或已开放的测试版。</p>
+        </div>
+        <div class="download-surface reveal">
+          <div class="download-product">
+            <img src="/assets/app-icon.png" alt="BiliTerminal 图标" width="72" height="72" loading="lazy">
+            <div><span class="tag tag-stable">推荐</span><h3>Android 正式版</h3><p>智能手表、旧手机与 Android 点读设备</p></div>
+          </div>
+          <dl class="requirements">
+            <div><dt>系统要求</dt><dd>Android 4.0.4+</dd></div>
+            <div><dt>处理器</dt><dd>ARMv7 / x86 / MIPS</dd></div>
+            <div><dt>安装包</dt><dd id="download-size">9.61 MB</dd></div>
+          </dl>
+          <a class="button button-primary download-button" id="main-download" href="/download/BiliTerminal-1.1.8-2026092102-release.apk">下载 APK</a>
+        </div>
+      </section>
+
+      <section class="guide section-band" id="guide">
+        <div class="section-shell">
+          <div class="section-heading reveal">
+            <div><p class="eyebrow"><span></span> Getting Started</p><h2>安装与使用</h2></div>
+          </div>
+          <ol class="guide-steps">
+            <li class="reveal"><span>01</span><div><h3>下载安装包</h3><p>使用设备浏览器下载 APK。升级用户可直接覆盖安装，无需清除应用数据。</p></div></li>
+            <li class="reveal"><span>02</span><div><h3>允许安装</h3><p>根据系统提示允许当前浏览器或文件管理器安装未知来源应用。</p></div></li>
+            <li class="reveal"><span>03</span><div><h3>登录并使用</h3><p>启动终端后按应用提示登录。直连异常时，客户端会自动尝试受限中继。</p></div></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="relay section-shell" id="relay">
+        <div class="relay-copy reveal">
+          <p class="eyebrow"><span></span> Network Policy</p>
+          <h2>中继只在需要时出现</h2>
+          <p>客户端始终优先请求官方接口。发生连接超时、SSL 握手失败或网络重置后，才会尝试由自建服务器转发请求。</p>
+          <p class="relay-note">中继带有 Token 验证和 B 站相关域名白名单，不提供公开代理服务，也不会绕过账号权限或内容授权。</p>
+        </div>
+        <div class="relay-flow reveal" aria-label="网络请求流程">
+          <div><span>01</span><strong>终端直连</strong><small>官方接口优先</small></div>
+          <b aria-hidden="true">→</b>
+          <div><span>02</span><strong>异常判断</strong><small>超时或握手失败</small></div>
+          <b aria-hidden="true">→</b>
+          <div><span>03</span><strong>受限中继</strong><small>白名单与验证</small></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="/assets/app-icon.png" alt="" width="44" height="44" loading="lazy">
+          <div>
+            <strong>BiliTerminal Revival</strong>
+            <p>为旧设备重新连接哔哩哔哩</p>
+            <p class="footer-feedback">问题反馈 QQ 群：1107953621</p>
+          </div>
+        </div>
+        <nav aria-label="页脚导航">
+          <a href="#guide">使用说明</a>
+          <a href="#relay">中继策略</a>
+          <a href="#status">服务状态</a>
+          <a href="https://www.gnu.org/licenses/gpl-3.0.html" rel="license noopener">GPL-3.0</a>
+          <a id="source-download" href="/download/BiliTerminal-1.1.5-2026082901-source.zip">源码归档</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="copyright-year">2026</span> BiliTerminal Revival</span>
+        <span>非哔哩哔哩官方项目，Bilibili 名称及商标归其权利人所有。</span>
+      </div>
+    </footer>
+
+    <script src="/assets/site.js?v=20260921-3" defer></script>
+  </body>
+</html>
