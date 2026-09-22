@@ -1,0 +1,38 @@
+<svg width="720" height="460" viewBox="0 0 720 460" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">BiliTerminal relay map</title>
+  <desc id="desc">Watch client connects to the private terminal server, then the server relays requests to Bilibili.</desc>
+  <rect width="720" height="460" rx="24" fill="#101820"/>
+  <path d="M64 382H656" stroke="#2F3E4D" stroke-width="2"/>
+  <rect x="70" y="100" width="150" height="212" rx="36" fill="#E8F0F2" stroke="#93A4AF" stroke-width="4"/>
+  <rect x="93" y="132" width="104" height="146" rx="18" fill="#17212B"/>
+  <rect x="118" y="74" width="54" height="34" rx="12" fill="#52636F"/>
+  <rect x="118" y="304" width="54" height="58" rx="16" fill="#52636F"/>
+  <circle cx="145" cy="204" r="34" fill="#1F7A77"/>
+  <path d="M129 204h32M145 188v32" stroke="white" stroke-width="7" stroke-linecap="round"/>
+  <text x="145" y="397" fill="#F7FAFB" font-family="Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">Watch</text>
+  <text x="145" y="425" fill="#9AA8B2" font-family="Arial, sans-serif" font-size="15" text-anchor="middle">BiliTerminal</text>
+
+  <rect x="292" y="82" width="168" height="248" rx="14" fill="#F7FAFB"/>
+  <rect x="314" y="108" width="124" height="20" rx="6" fill="#D89B20"/>
+  <rect x="314" y="148" width="124" height="18" rx="6" fill="#D9E0E4"/>
+  <rect x="314" y="184" width="124" height="18" rx="6" fill="#D9E0E4"/>
+  <rect x="314" y="220" width="124" height="18" rx="6" fill="#D9E0E4"/>
+  <rect x="314" y="258" width="58" height="18" rx="6" fill="#1F7A77"/>
+  <rect x="386" y="258" width="52" height="18" rx="6" fill="#C74F34"/>
+  <text x="376" y="397" fill="#F7FAFB" font-family="Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">jp.031030.xyz</text>
+  <text x="376" y="425" fill="#9AA8B2" font-family="Arial, sans-serif" font-size="15" text-anchor="middle">Private relay server</text>
+
+  <rect x="528" y="118" width="118" height="118" rx="28" fill="#00A1D6"/>
+  <path d="M565 157l22 19 22-19M562 190h50" stroke="white" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="548" y="258" width="78" height="32" rx="16" fill="#F7FAFB"/>
+  <text x="587" y="280" fill="#00A1D6" font-family="Arial, sans-serif" font-size="18" font-weight="800" text-anchor="middle">B站</text>
+  <text x="587" y="397" fill="#F7FAFB" font-family="Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">Bilibili</text>
+  <text x="587" y="425" fill="#9AA8B2" font-family="Arial, sans-serif" font-size="15" text-anchor="middle">Allowed hosts only</text>
+
+  <path d="M232 194h42" stroke="#D89B20" stroke-width="6" stroke-linecap="round"/>
+  <path d="M263 178l20 16-20 16" stroke="#D89B20" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M472 194h38" stroke="#1F7A77" stroke-width="6" stroke-linecap="round"/>
+  <path d="M499 178l20 16-20 16" stroke="#1F7A77" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="258" y="160" fill="#D89B20" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">fallback</text>
+  <text x="496" y="160" fill="#70C7C0" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">relay</text>
+</svg>
