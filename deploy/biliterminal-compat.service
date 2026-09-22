@@ -1,0 +1,23 @@
+[Unit]
+Description=BiliTerminal compatibility and relay server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=biliterminal
+Group=biliterminal
+WorkingDirectory=/opt/biliterminal-server-compat
+Environment=NODE_ENV=production
+Environment=PORT=3000
+Environment=HOST=127.0.0.1
+ExecStart=/usr/bin/node /opt/biliterminal-server-compat/server.js
+Restart=always
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ReadWritePaths=/opt/biliterminal-server-compat/data /opt/biliterminal-server-compat/logs
+
+[Install]
+WantedBy=multi-user.target
