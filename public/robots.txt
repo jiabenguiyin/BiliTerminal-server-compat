@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+Disallow: /terminal/
+Disallow: /bili-relay/
+Disallow: /compat/
+
+# Allow OpenAI search and discovery crawlers to read the public website.
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /terminal/
+Disallow: /bili-relay/
+Disallow: /compat/
+
+User-agent: GPTBot
+Allow: /
+Disallow: /terminal/
+Disallow: /bili-relay/
+Disallow: /compat/
+
+Sitemap: https://jp.031030.xyz/sitemap.xml
