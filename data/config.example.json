@@ -1,0 +1,125 @@
+{
+  "port": 3000,
+  "latestVersion": {
+    "version_name": "1.0.5",
+    "version_code": 20260613,
+    "update_log": "复活版 1.0.5 正式版：新增视频与直播后台、熄屏播放，直播间支持发送弹幕和听直播模式；修复后台通知返回主页、动态子评论无法跳转等问题；继续兼容 Android 4.0、低内存设备和弱网自动中继。",
+    "ctime": 1781362358,
+    "can_download": 1,
+    "is_release": 1
+  },
+  "latestBetaVersion": null,
+  "downloadUrls": {
+    "20260613": "https://jp.031030.xyz/download/BiliTerminal-1.0.5-20260613-release.apk",
+    "20260608": "https://jp.031030.xyz/download/BiliTerminal-1.0.4-20260608-jp-relay-api14-signed.apk",
+    "20260607": "https://jp.031030.xyz/download/BiliTerminal-1.0.3-20260607-jp-relay-commentfix-signed.apk"
+  },
+  "announcements": [
+    {
+      "id": 8,
+      "ctime": 1781362358,
+      "title": "复活版 1.0.5 正式发布",
+      "content": "1.0.5 / 20260613\n\n本次更新：\n- 视频与直播支持后台、熄屏播放。\n- 直播间支持发送弹幕和听直播模式。\n- 点击播放通知可返回原播放器。\n- 动态子评论消息可跳转评论线程。\n- 继续兼容 Android 4.0 和低内存设备。\n- 保持原签名，可从旧版本覆盖更新。\n- 官方接口优先，失败后自动中继。"
+    }
+  ],
+  "sponsors": [],
+  "sponsorPageSize": 20,
+  "uploadStack": {
+    "enabled": true
+  },
+  "uploadDiagnostics": {
+    "enabled": true,
+    "retentionDays": 30
+  },
+  "hotConfig": {
+    "enabled": false,
+    "privateKeyPath": "data/hot-config-private.pem",
+    "ttlSeconds": 86400,
+    "payload": {
+      "min_client_version_code": 20260613,
+      "relay": {
+        "enabled": true,
+        "auto_fallback": true,
+        "base_url": "https://jp.031030.xyz/bili-relay",
+        "token": "replace-with-a-long-random-token",
+        "direct_retry_count": 2,
+        "direct_timeout_seconds": 5
+      },
+      "compat": {
+        "enabled": true,
+        "base_url": "https://jp.031030.xyz/compat/v1/bili",
+        "token": "replace-with-a-long-random-token"
+      },
+      "update_manifest_url": "https://jp.031030.xyz/terminal/update/manifest"
+    }
+  },
+  "updateManifest": {
+    "enabled": false,
+    "privateKeyPath": "data/hot-config-private.pem",
+    "payload": {
+      "version_name": "1.0.5",
+      "version_code": 20260613,
+      "full": {
+        "url": "https://jp.031030.xyz/download/BiliTerminal-1.0.5-20260613-release.apk",
+        "sha256": "",
+        "size": 0
+      },
+      "patches": []
+    }
+  },
+  "compat": {
+    "enabled": false,
+    "basePath": "/compat/v1/bili",
+    "token": "replace-with-a-long-random-token",
+    "timeoutMs": 20000,
+    "routes": {
+      "dynamic_feed_all": {
+        "method": "GET",
+        "upstream": "https://api.bilibili.com/x/polymer/web-dynamic/desktop/v1/feed/all"
+      },
+      "dynamic_feed_space": {
+        "method": "GET",
+        "upstream": "https://api.bilibili.com/x/polymer/web-dynamic/desktop/v1/feed/space"
+      },
+      "dynamic_detail": {
+        "method": "GET",
+        "upstream": "https://api.bilibili.com/x/polymer/web-dynamic/desktop/v1/detail"
+      },
+      "dynamic_update": {
+        "method": "GET",
+        "upstream": "https://api.bilibili.com/x/polymer/web-dynamic/desktop/v1/feed/all/update"
+      }
+    }
+  },
+  "relay": {
+    "enabled": true,
+    "basePath": "/bili-relay",
+    "token": "replace-with-a-long-random-token",
+    "timeoutMs": 20000,
+    "allowedHosts": [
+      "bilibili.com",
+      "*.bilibili.com",
+      "*.bilivideo.com",
+      "*.bilivideo.cn",
+      "upos-*.akamaized.net",
+      "*.hdslb.com",
+      "*.biliapi.net",
+      "api.bilibili.com",
+      "api.vc.bilibili.com",
+      "api.live.bilibili.com",
+      "passport.bilibili.com",
+      "account.bilibili.com",
+      "member.bilibili.com",
+      "www.bilibili.com",
+      "live.bilibili.com",
+      "space.bilibili.com",
+      "search.bilibili.com",
+      "s.search.bilibili.com",
+      "comment.bilibili.com",
+      "i0.hdslb.com",
+      "i1.hdslb.com",
+      "i2.hdslb.com",
+      "b23.tv"
+    ]
+  }
+}
